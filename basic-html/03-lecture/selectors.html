@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>CSS Selectors</title>
+        <style>
+            body {
+                background-color: rgb(183, 189, 182);
+            }
+            h2 {
+                color: green;
+            }
+            h2#red-heading {
+                color: red;
+            }
+            #welcome {
+                color: blue;
+                background-color: darkgray;
+            }
+            #welcome, #about, #help, span {
+                border: 1px solid #636060;
+                padding: 10px;
+                margin-bottom: 5px;
+            }
+            #other p {
+                color: darkgreen;
+            }
+            #other h2 {
+                color: darkorange;
+            }
+            p {
+                line-height: 2em;
+            }
+            b {
+                font-style: italic;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h2 id="red-heading">Welcome</h2>
+            <p id="welcome">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quidem id cum nulla, rerum vel maxime ad quasi incidunt neque?</p id="welcome">
+        </div>
+        <div>
+            <h2>About</h2>
+            <p id="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores corrupti accusantium, libero vel est vero cupiditate impedit eveniet soluta! Esse.</p>
+        </div>
+        <div>
+            <h2>help</h2>
+            <p id="help">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id ducimus amet aspernatur dolorum aliquid praesentium nesciunt adipisci tempora, minus sapiente!</p>
+        </div>
+        <br>
+        <div>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, quas.</span>
+        </div>
+        <div id="other">
+            <h2>Other</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur tempora amet voluptatibus ratione sit non delectus sunt id eveniet commodi.</p>
+        </div>
+        <div>
+            <b>line-height</b>&nbsp;means space between line
+        </div>
+    </body>
+</html>
